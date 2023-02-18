@@ -9580,3 +9580,19 @@ textarea { height: 80px; resize: none; }
   border: none;
   height: 30px;
 }
+@media (min-width:500px){
+  .booknow{
+    position: absolute;top: 400px;right: 0;
+    width: 20%;
+    height: 90px;
+    
+    }
+  }
+  
+  @media (max-width:500px){
+    .booknow{
+      position: absolute;top: 469px;right: 0;
+      width: 45%;
+    height: 57px;
+    }
+  }
