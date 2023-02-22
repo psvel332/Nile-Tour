@@ -7360,7 +7360,8 @@ h1, h2, h3, h4, h5,
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
     -ms-border-radius: 30px;
-    border-radius: 30px; }
+    border-radius: 30px;
+  background: #0D7A3B; }
     .ftco-navbar-light .navbar-nav > .nav-item.cta > a span {
       display: inline-block;
       color: #fff; }
@@ -9460,13 +9461,13 @@ textarea.form-control {
   }
 @media (min-width:500px){
 .whatsapp{
-  width: 5%;position: absolute;top: 400px;left: 0;border-radius: 50%;
+  width: 5%;position: absolute;top: 578px;left: 10px;border-radius: 50%;
   }
 }
 
 @media (max-width:500px){
   .whatsapp{
-    width: 12%;position: absolute;top: 193px;left: 0;border-radius: 50%;
+    width: 12%;position: absolute;top: 529px;left: 0;border-radius: 50%;
   }
   }
   .container--gallery {
@@ -9582,17 +9583,33 @@ textarea { height: 80px; resize: none; }
 }
 @media (min-width:500px){
   .booknow{
-    position: absolute;top: 400px;right: 0;
-    width: 20%;
-    height: 90px;
+    position: absolute;top: 578px;right: 0;
+    width: 16%;
+    height: 64px;
     
     }
   }
   
   @media (max-width:500px){
     .booknow{
-      position: absolute;top: 469px;right: 0;
-      width: 45%;
-    height: 57px;
+      position: absolute;top: 529px;right: 0;
+      width: 42%;
+    height: 49px;
     }
   }
+/* Blink for Webkit and others
+(Chrome, Safari, Firefox, IE, ...)
+*/
+
+@-webkit-keyframes blinker {
+  from {opacity: 1.0;}
+  to {opacity: 0.0;}
+}
+.blink{
+	text-decoration: blink;
+	-webkit-animation-name: blinker;
+	-webkit-animation-duration: 0.8s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-timing-function:ease-in-out;
+	-webkit-animation-direction: alternate;
+}
