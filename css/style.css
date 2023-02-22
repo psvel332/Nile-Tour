@@ -9613,3 +9613,6 @@ textarea { height: 80px; resize: none; }
 	-webkit-animation-timing-function:ease-in-out;
 	-webkit-animation-direction: alternate;
 }
+.response{
+  display: none;
+}
