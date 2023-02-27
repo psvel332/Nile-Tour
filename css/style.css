@@ -9655,13 +9655,13 @@ textarea { height: 80px; resize: none; }
 }
 .sec_title {
   color: #0D7A3B;
-  font-size: calc(18px + 20 * ((100vw - 320px) / 980));
+  /* font-size: calc(18px + 20 * ((100vw - 320px) / 980)); */
   text-transform: uppercase;
   text-align: center;
   padding-bottom: 2rem;
 }
 .accordian-item {
-  background-color: #0D7A3B;
+  background-color: #fff;
   border-radius: 0.5rem;
   margin-bottom: 1rem;
   padding: 1rem;
@@ -9669,11 +9669,11 @@ textarea { height: 80px; resize: none; }
 }
 
 .accordian-link {
-  color: #fff;
-  font-size: calc(10px + 8 * ((100vw - 320px) / 680));
+  color: black;
+  /* font-size: calc(10px + 8 * ((100vw - 320px) / 680)); */
   text-decoration: none;
   width: 100%;
-  background-color: #0D7A3B;
+  background-color: #fff;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -9690,7 +9690,7 @@ textarea { height: 80px; resize: none; }
 }
 
 .answer p {
-  font-size: calc(10px + 6 * ((100vw - 320px) / 680));
+  /* font-size: calc(10px + 6 * ((100vw - 320px) / 680)); */
   color: #0D7A3B;
   padding: 1rem;
 }
@@ -9713,5 +9713,23 @@ textarea { height: 80px; resize: none; }
 .answer::-webkit-scrollbar-thumb {
   background-color: green;
   outline: 1px solid darkgreen;
+}
+
+/* footer styling */
+
+@keyframes gradient {
+  0%,
+  100% {
+    background-position: 20% 10%;
+  }
+  20% {
+    background-position: 40% 20%;
+  }
+  40% {
+    background-position: 60% 40%;
+  }
+  80% {
+    background-position: 80% 60%;
+  }
 }
 
